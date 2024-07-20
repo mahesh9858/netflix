@@ -1,1 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="header">
+        <div class="container header-cont">
+            <div class="left-cont">
+                <img src="path/to/netflix-logo.png" alt="Netflix Logo" class="header-brand">
+                <ul class="main-nav">
+                    <li class="nav-item active">Home</li>
+                    <li class="nav-item">TV Shows</li>
+                    <li class="nav-item">Movies</li>
+                    <li class="nav-item">Latest</li>
+                    <li class="nav-item">My List</li>
+                </ul>
+            </div>
+            <div class="right-cont">
+                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-search"><path d="M11 3a8 8 0 105.293 14.293l4.707 4.707a1 1 0 001.414-1.414l-4.707-4.707A8 8 0 0011 3zm0 2a6 6 0 11-4.243 10.243A6 6 0 0111 5z"/></svg>
+                <img src="path/to/user-icon.png" alt="User Icon">
+            </div>
+        </div>
+    </header>
+
+    <section class="banner-section" id="banner-section">
+        <!-- Banner content will be dynamically added here -->
+        <div class="banner_fadeBottom"></div>
+    </section>
+
+    <section id="movies-cont" class="container">
+        <!-- Movie sections will be dynamically added here -->
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
 
